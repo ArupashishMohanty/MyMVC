@@ -3,7 +3,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Registration Form</title>
+    <meta charset="ISO-8859-1">
+    <title>Search Employee</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -69,24 +70,11 @@
     </style>
 </head>
 <body>
-    <form action="registerEmp" method="post">
+    <form action="searchEmp" method="post">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
 
-        <label for="gender">Gender:</label>
-        <select id="gender" name="gender" required>
-            <option value="Male">Male</option>
-            <option value="FeMale">FeMale</option>
-            <option value="Other">Other</option>
-        </select>
-
-        <label for="salary">Salary:</label>
-        <input type="number" id="salary" name="salary" required>
-
-        <label for="Age">Age:</label>
-        <input type="number" id="Age" name="age" required>
-
-        <input type="submit" value="Submit">
+        <input type="submit" value="Search">
     </form>
 </body>
 </html>
